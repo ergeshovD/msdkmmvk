@@ -1,0 +1,53 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 1400px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 1200px) {
+    .hero-playd {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero-playd img {
+        width: 90%;
+        padding: 20px;
+        margin: 0 0 0 160px;
+    }
+}
+@media (max-width: 1024px) { }
+@media (max-width: 992px) { }
+@media (max-width: 768px) { }
+@media (max-width: 576px) {
+    .hero-playd img {
+        margin: 0 0 0 180px;
+    }
+    .java-group {
+
+    }
+}
+@media (max-width: 451px) {
+    .hero-vin {
+        width: 130%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 400px) {
+    #java-com {
+        min-height: 30vh;
+    }
+}
+@media (max-width: 376px) { }
+@media (max-width: 320px) {
+    #hit {
+        display: none;
+        min-height: 100vh;
+    }
+}

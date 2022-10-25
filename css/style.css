@@ -13,11 +13,12 @@ body {
 }
 
 #header {
+    position: absolute;
     min-height: 100vh;
 }
 
 .header img {
-    margin-left: -196px;
+    margin-left: -156px;
     background: url("/img/1.png");
 }
 
@@ -152,7 +153,7 @@ body {
 }
 
 #hero-play {
-        min-height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -340,6 +341,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 140%;
 }
 
 .icon-com {
@@ -504,11 +506,12 @@ body {
 
 #hero-cc {
 }
-
+#java-com {
+    min-height: 30vh;
+}
 .hero-vin {
+    width: 130%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
